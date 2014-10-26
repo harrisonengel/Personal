@@ -1,0 +1,15 @@
+body{
+
+}
+header{
+	width: 100%;
+	height: 100px;
+	color: 	#3B98FF;
+}
+header li{
+	background-color: 	#0278FB;
+}
+header a{
+	text-decoration: none;
+	color:	#8FC3FE ;
+}

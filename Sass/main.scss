@@ -1,0 +1,40 @@
+//Testing Out Sass.
+
+$mainColor: #3B98FF;
+$secondaryColor: #0278FB;
+$tertiaryColor: #8FC3FE;
+
+html, body, h1, h2, h3, h4, p, div ul ol{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	font-size: 100%;
+	font: inherit;
+	font-family: "Helvtica Neue", Helvtica;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	color: 	$mainColor;
+
+	li{
+		background-color: $secondaryColor;
+	}
+
+	a {
+		text-decoration: none;
+		color:	$tertiaryColor;
+	}
+
+	nav{
+		position: absolute;
+		right: 0;
+		color: $secondaryColor;
+	}
+}
+#coverPic {
+	height = 50px;
+	width = 50px;
+	border-radius: 50%;
+}
